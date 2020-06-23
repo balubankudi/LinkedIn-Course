@@ -1,0 +1,14 @@
+# print a list of number from 1 to 100
+#Add all numbers in these range
+# print a list of odd numbers from 1 to 100 and later add them
+# convert string to float
+
+def sum_list(items):
+    sum_numbers = 0
+    for x in items:
+        sum_numbers += x
+    return sum_numbers
+print(sum_list([1,2,-8]))
+
+x = 9
+print (x)
